@@ -15,7 +15,6 @@
 
 
 int main(void) {
-	 Beep(523,500);
 	puts("Running RTTTL test\n\a"); /* prints !!!Hello World!!! */
 	while(1){
 		vSoundProcess();
